@@ -4,7 +4,7 @@
   "private": true,
   "description": "Single-service deploy wrapper: builds the React frontend, then runs the Express API which serves it.",
   "scripts": {
-  "build": "npm --prefix frontend install --include=dev && npm --prefix frontend run build && npm --prefix backend install"
+  "build": "npm --prefix frontend install --include=dev && npm --prefix frontend run build && npm --prefix backend install",
     "start": "npm --prefix backend start"
   },
   "engines": {
