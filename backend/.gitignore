@@ -1,0 +1,7 @@
+node_modules/
+school.db
+uploads/staff/*
+uploads/student/*
+!uploads/staff/.gitkeep
+!uploads/student/.gitkeep
+.env

@@ -1,0 +1,13 @@
+{
+  "name": "school-management-demo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Single-service deploy wrapper: builds the React frontend, then runs the Express API which serves it.",
+  "scripts": {
+    "build": "npm --prefix frontend install && npm --prefix frontend run build && npm --prefix backend install",
+    "start": "npm --prefix backend start"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
