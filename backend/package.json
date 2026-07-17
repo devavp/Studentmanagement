@@ -1,5 +1,5 @@
 {
-  "name": "school-management-backend",
+  "name": "LMS-backend",
   "version": "1.0.0",
   "description": "Backend for School Management demo app",
   "main": "server.js",

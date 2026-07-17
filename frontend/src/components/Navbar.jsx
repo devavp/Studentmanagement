@@ -18,7 +18,7 @@ export default function Navbar() {
 
   return (
     <nav className="navbar">
-      <div className="navbar-brand">School Portal · {user.role === "staff" ? "Staff" : "Student"}</div>
+      <div className="navbar-brand">LMS-APP · {user.role === "staff" ? "Staff" : "Student"}</div>
       <div className="navbar-links">
         <Link to={`${base}/dashboard`}>Dashboard</Link>
         {user.role === "staff" ? (

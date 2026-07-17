@@ -1,5 +1,5 @@
 {
-  "name": "school-management-demo",
+  "name": "LMS-APP",
   "version": "1.0.0",
   "private": true,
   "description": "Single-service deploy wrapper: builds the React frontend, then runs the Express API which serves it.",
